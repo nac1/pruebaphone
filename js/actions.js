@@ -20,7 +20,8 @@ var fn = {
     },
     agregar_contacto:function(){
     alert("3");
-    contactos.creado();
+    contactos.guardar();
+        //crear contacto
    }
 
 };
