@@ -29,7 +29,7 @@ var contactos = {
         contact.phoneNumbers = telefonos;
         contact.emails = correos;
         contact.addresses=direccion;
-        
+         alert('Guardar');
         contact.save(contactos.creado,contactos.error);
     }
 };
