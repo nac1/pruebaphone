@@ -18,9 +18,10 @@ var fn = {
         /*if(!storage.estaRegistrado())
             window.location.href = '#reg';*/
     }//,
-   /* agregar_contacto:function(){
-    contactos.creado();
-   }*/
+    agregar_contacto:function(){
+    alert("3");
+   // contactos.creado();
+   }
 
 };
 
