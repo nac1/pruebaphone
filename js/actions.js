@@ -11,13 +11,13 @@ var fn = {
         $('#contact').tap(fn.agregar_contacto);
         
        // $('#regSend').click(fn.enviarRegistro);
-    //    $('#regFoto').click(capture.imgCapture);
+       //$('#regFoto').click(capture.imgCapture);
         
         
         
         /*if(!storage.estaRegistrado())
             window.location.href = '#reg';*/
-    }//,
+    },
     agregar_contacto:function(){
     alert("3");
    // contactos.creado();
