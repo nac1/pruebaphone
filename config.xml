@@ -19,4 +19,6 @@
         Hardeep Shoker 
     </author>
 
+    <gap:plugin name="org.apache.cordova.contacts" />
+        
 </widget>
