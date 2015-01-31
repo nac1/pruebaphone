@@ -1,14 +1,13 @@
-/*
+
 
 var fn = {
     ready: function(){
-     //agregar al final 'deviceready'
-         alert('123');
-         document.addEventListener('deviceready',fn.init,false);
+        alert("1");
+        document.addEventListener("deviceready", fn.init, false);
         
     },
     init: function(){   
-        alert('1234');
+        alert("2");
         $('#contact').tap(fn.agregar_contacto);
         
        // $('#regSend').click(fn.enviarRegistro);
@@ -17,18 +16,18 @@ var fn = {
         
         
         /*if(!storage.estaRegistrado())
-            window.location.href = '#reg';
-    },
-    agregar_contacto:function(){
+            window.location.href = '#reg';*/
+    }//,
+   /* agregar_contacto:function(){
     contactos.creado();
-   }
+   }*/
 
 };
 
 $(fn.ready);
-*/
 
 
+/*
     // Wait for device API libraries to load
     //
     function onLoad() {
@@ -43,4 +42,4 @@ $(fn.ready);
          alert("2");
     }
 
-
+*/
