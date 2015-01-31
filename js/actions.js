@@ -27,12 +27,20 @@ var fn = {
 
 $(fn.ready);
 */
- function init() {
-   document.addEventListener("deviceready", onDeviceReady, false);
- }
 
- function onDeviceReady() {
-   alert('It works!');
- }
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        alert("1");
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+         alert("2");
+    }
 
 
